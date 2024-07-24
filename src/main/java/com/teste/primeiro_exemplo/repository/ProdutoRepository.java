@@ -57,6 +57,11 @@ public class ProdutoRepository {
             produtos.removeIf(produto -> produto.getId() == id);
         }
 
+        /**
+         * metodo para atualizar o produto na lista
+         * @param produto que sera atualizado
+         * @return retorna o produto apos atualizar a lista
+         */
         public Produto atualizar(Produto produto){
             //encontrar produto
             Optional<Produto> produtoEncontrado = obterPorId(produto.getId()); 
