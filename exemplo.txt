@@ -1,0 +1,6 @@
+Objetivo:
+Criar uma API RestFull para controle de produtos
+
+Modelo: 
+    Produto: id, nome, quantidade, valor, observacao
+
